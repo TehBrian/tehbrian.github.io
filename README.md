@@ -9,7 +9,9 @@ TO-DO
 -
 
 Make the website not as bad. It's pretty bad right now.
+
 Add some *aNiMaTiOnS* wow fancy.
+
 Possibly add a " and " portfolio with some work I've done? Not like I've done anything important.
 
 ISSUES
