@@ -33,27 +33,3 @@ a:link {
 	text-decoration: none;
 	font-size: 25px;
 }
-
-a:visited {
-	padding: 0px 10px;
-	font-family: sans-serif;
-	color: darkgray;
-	text-decoration: none;
-	font-size: 25px;
-}
-
-a:hover {
-	padding: 0px 10px;
-	font-family: sans-serif;
-	color: darkgray;
-	text-decoration: underline;
-	font-size: 25px;
-}
-
-a:active {
-	padding: 0px 10px;
-	font-family: sans-serif;
-	color: gray;
-	text-decoration: underline;
-	font-size: 25px;
-}
