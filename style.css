@@ -25,11 +25,3 @@ p {
 	color: dimgray;
 	font-size: 25px;
 }
-
-a:link {
-	padding: 0px 10px;
-	font-family: sans-serif;
-	color: darkgray;
-	text-decoration: none;
-	font-size: 25px;
-}
