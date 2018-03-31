@@ -17,4 +17,4 @@ Possibly add a portfolio with some work I've done? Not like I've done anything i
 ISSUES
 -
 
-None except like the website looks like absolute GARBAGE.
+None except the website looks like absolute GARBAGE.
