@@ -1,7 +1,7 @@
 TehBrian's Website
 =
 
-Hey there. I'm Brian. This is a personal website for me to test out my CSS and HTML kung fu skills. Take none of it seriously. This is all for practice and tests.
+Hey there. I'm Brian. This is a personal website for me to test out my HTML, CSS, and JavaScript kung fu skills. Take none of it seriously. This is all for practice and tests.
 
 Since this is just a personal website, I will be keeping the to-do list and the issues tracker here in the README, rather than relying on github. It doesn't need to be that complicated.
 
