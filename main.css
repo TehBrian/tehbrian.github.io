@@ -1,4 +1,32 @@
+html {
+	background-color: rgb(100, 100, 100);
+}
+
+body {
+	background-color: rgb(150, 150, 150);
+	border: 4px solid rgb(175, 175, 175);
+	padding: 8px;
+}
+
 p {
-	color: blue;
-	size: 100;
+	font: 24px arial;
+	color: black;
+}
+
+.button {
+	background-color: rgb(175, 175, 175);
+	cursor: pointer;
+	border: none;
+	padding: 8px 16px;
+	text-align: center;
+	font-size: 24px;
+	color: black
+}
+
+.button:hover {
+	background-color: rgb(185, 185, 185);
+}
+
+.button:active {
+	background-color: rgb(165, 165, 165);
 }
