@@ -11,9 +11,10 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <button class="button" onclick="buttonOne()">One Button</button>
-    <button class="button" onclick="buttonTwo()">Two Button</button>
-    <p id="one">Some Text</p>
-    <p id="two">More Text</p>
+    <p id="funNumber"></p>
+    <script>
+        document.getElementById("funNumber").innerHTML = "Your fun number is " + randomNum(0, 100) + "!"
+    </script>
+    <noscript>Your fun number is unavailable since you don't have JavaScript enabled!</noscript>
 </body>
 </html>
