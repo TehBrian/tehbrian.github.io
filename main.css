@@ -1,14 +1,43 @@
-html {
-	background-color: rgb(100, 100, 100);
-}
+html {}
 
 body {
-	background-color: rgb(150, 150, 150);
-	border: 4px solid rgb(175, 175, 175);
-	padding: 8px;
+	background-color: rgb(245, 245, 245);
+	padding: 0px 48px;
+}
+
+h1 {
+	font: 64px arial;
+	color: rgb(75, 75, 75);
 }
 
 p {
-	font: 24px arial;
-	color: black;
+	font: 32px arial;
+	color: rgb(75, 75, 75);
+}
+
+li {
+	font: 32px arial;
+	color: rgb(75, 75, 75);
+}
+
+#delay1 {
+	animation: fadein 1s linear 0s 1 normal;
+}
+
+#delay2 {
+	animation: fadein 3s linear 0s 1 normal;
+}
+
+#delay3 {
+	animation: fadein 6s linear 0s 1 normal;
+}
+
+#delay4 {
+	animation: fadein 8s linear 0s 1 normal;
+}
+
+@keyframes fadein {
+	0% {color: rgb(245, 245, 245);}
+	50% {color: rgb(245, 245, 245);}
+	100% {color: rgb(75, 75, 75);}
 }
