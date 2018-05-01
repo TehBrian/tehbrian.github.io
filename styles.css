@@ -1,8 +1,17 @@
-html {}
+* {
+	padding: 0px;
+	margin: 0px;
+	font: 16px arial, sans-serif;
+}
+
+html {
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
 
 body {
+	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 	background-color: rgb(245, 245, 245);
-	padding: 0px 48px;
+	padding: 32px 48px;
 }
 
 h1 {
@@ -20,20 +29,16 @@ li {
 	color: rgb(75, 75, 75);
 }
 
-#delay1 {
+.delay1 {
 	animation: fadein 1s linear 0s 1 normal;
 }
 
-#delay2 {
+.delay2 {
 	animation: fadein 3s linear 0s 1 normal;
 }
 
-#delay3 {
+.delay3 {
 	animation: fadein 6s linear 0s 1 normal;
-}
-
-#delay4 {
-	animation: fadein 8s linear 0s 1 normal;
 }
 
 @keyframes fadein {

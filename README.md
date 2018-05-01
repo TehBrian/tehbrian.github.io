@@ -13,6 +13,8 @@ Add a navigation bar.
 
 Add a portfolio.
 
+Add a favicon.
+
 ISSUES
 -
 
