@@ -4,12 +4,10 @@
 	font: 16px arial, sans-serif;
 }
 
-html {
-	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
-}
+html {}
+
 
 body {
-	background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
 	background-color: rgb(245, 245, 245);
 	padding: 32px 48px;
 }
