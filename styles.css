@@ -1,25 +1,20 @@
 html {
-	padding: 0px;
-	margin: 0px;
-	font: 62.5% arial, sans-serif;
+	padding: 0rem;
+	margin: 0rem;
+	font: 100% helvetica, sans-serif;
 }
 
 body {
-	background-color: rgb(245, 245, 245);
-	padding: 0px 48px;
+	padding: 0rem 3rem;
+	background-color: #fafafa;
 }
 
 h1 {
-	font: 64px arial;
-	color: rgb(75, 75, 75);
+	font-size: 4rem;
+	color: #202032;
 }
 
 p {
-	font: 32px arial;
-	color: rgb(75, 75, 75);
+	font-size: 2rem;
+	color: #202032;
 }
-
-li {
-	font: 32px arial;
-	color: rgb(75, 75, 75);
-}j
