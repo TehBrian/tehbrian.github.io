@@ -15,6 +15,8 @@ Add a portfolio.
 
 Add a favicon.
 
+Remove js at end of each file.
+
 ISSUES
 -
 
