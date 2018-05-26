@@ -11,7 +11,7 @@ White: #faf8f8;
 
 White-Black: #b7b5b5;
 
-Black-White: #757373; or #747272;
+Black-White: #757373;
 
 Black: #323030;
 
