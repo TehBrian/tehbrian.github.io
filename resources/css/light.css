@@ -5,58 +5,53 @@ html {
 }
 
 body {
-	padding: 0rem 8rem;
+	padding: 0rem 6rem;
 	background-color: #faf8f8;
 }
 
 h1 {
-	font: 400 8rem 'Roboto', sans-serif;
-	color: #323030;
-}
-
-h2 {
-	font: 400 7rem 'Roboto', sans-serif;
-	color: #323030;
-}
-
-h3 {
 	font: 400 6rem 'Roboto', sans-serif;
 	color: #323030;
 }
 
+h2 {
+	font: 400 5.25rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+h3 {
+	font: 400 4.5rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
 h4 {
-	font: 400 5rem 'Roboto', sans-serif;
+	font: 400 3.75rem 'Roboto', sans-serif;
 	color: #323030;
 }
 
 p {
-	font: 300 4rem 'Roboto', sans-serif;
+	font: 300 3rem 'Roboto', sans-serif;
 	color: #323030;
 }
 
 span {
-	font: 300 4rem 'Roboto', sans-serif;
+	font: 300 3rem 'Roboto', sans-serif;
 	color: #323030;
 }
 
-a:link {
-	font: 300 4rem 'Roboto', sans-serif;
+a {
+	font: 300 2.75rem 'Roboto', sans-serif;
+	text-decoration: none;
 	color: #757373;
 }
 
 a:hover {
-	font: 300 4rem 'Roboto', sans-serif;
 	color: #b7b5b5;
+	text-decoration: underline;
 }
 
 a:active {
-	font: 400 4rem 'Roboto', sans-serif;
-	color: #757373;
-}
-
-a:visited {
-	font: 300 4rem 'Roboto', sans-serif;
-	color: #757373;
+	font-weight: 400;
 }
 
 #theme-selector {
@@ -65,25 +60,34 @@ a:visited {
 	top: 2rem;
 }
 
+#theme-selector * {
+	font-size: 3.5rem;
+	text-decoration: underline;
+}
+
+.small {
+	font-size: 2.6rem;
+}
+
 .rainbow {
 	background-image: linear-gradient(111deg, #a0a, #00a, #0aa, #0a0, #fa0, #a00);
 	-webkit-background-clip: text;
 	color: transparent;
 }
 
-.fadein {
+.fade-in {
 	opacity: 0;
-	animation: fadein 1s linear 0.5s 1 normal forwards;
+	animation: fade-in 1s linear 0.5s 1 normal forwards;
 }
 
-@keyframes fadein {
+@keyframes fade-in {
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 750px) {
 	html {
-	  font-size: 1.4vw;
+	  font-size: 1.33vw;
 	}
 	body {
 		padding: 0rem 4rem;
