@@ -1,0 +1,82 @@
+html {
+	font-size: 62.5%;
+	padding: 0rem;
+	margin: 0rem;
+}
+
+body {
+	padding: 0rem 8rem;
+	background-color: #faf8f8;
+}
+
+h1 {
+	font: 400 8rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+h2 {
+	font: 400 7rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+h3 {
+	font: 400 6rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+h4 {
+	font: 400 5rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+p {
+	font: 300 4rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+span {
+	font: 300 4rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+a:link {
+	font: 300 4rem 'Roboto', sans-serif;
+	color: #b7b5b5
+}
+
+a:hover {
+	font: 300 4rem 'Roboto', sans-serif;
+	color: #757373;
+}
+
+a:active {
+	font: 400 4rem 'Roboto', sans-serif;
+	color: #757373;
+}
+
+a:visited {
+	font: 300 4rem 'Roboto', sans-serif;
+	color: #323030;
+}
+
+#theme-selector {
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+}
+
+.rainbow {
+	background-image: linear-gradient(111deg, #a00, #fa0, #0a0, #0aa, #00a, #a0a);
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.fadein {
+	opacity: 0;
+	animation: fadein 1s linear 0.5s 1 normal forwards;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
