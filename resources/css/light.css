@@ -41,12 +41,12 @@ span {
 
 a:link {
 	font: 300 4rem 'Roboto', sans-serif;
-	color: #b7b5b5
+	color: #757373;
 }
 
 a:hover {
 	font: 300 4rem 'Roboto', sans-serif;
-	color: #757373;
+	color: #b7b5b5;
 }
 
 a:active {
@@ -56,7 +56,7 @@ a:active {
 
 a:visited {
 	font: 300 4rem 'Roboto', sans-serif;
-	color: #323030;
+	color: #757373;
 }
 
 #theme-selector {
