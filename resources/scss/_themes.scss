@@ -1,0 +1,59 @@
+@import "variables";
+
+[theme="dark"] {
+    body {
+        background-color: $dark;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    span {
+        color: $light;
+    }
+
+    a {
+        color: $lightish;
+    }
+
+    a:hover {
+        color: $darkish;
+    }
+
+    .rainbow {
+        @include css3-prefix(background-clip, text);
+        color: transparent;
+        background-image: linear-gradient(111deg, $mc-red, $mc-yellow, $mc-green);
+    }
+}
+
+[theme="light"] {
+    body {
+        background-color: $light;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    span {
+        color: $dark;
+    }
+
+    a {
+        color: $darkish;
+    }
+
+    a:hover {
+        color: $lightish;
+    }
+
+    .rainbow {
+        @include css3-prefix(background-clip, text);
+        color: transparent;
+        background-image: linear-gradient(111deg, $mc-dark-purple, $mc-dark-blue, $mc-dark-aqua);
+    }
+}

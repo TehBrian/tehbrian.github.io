@@ -3,17 +3,17 @@
     "short_name": "TehBrian's Website",
     "icons": [
         {
-            "src": "/android-chrome-192x192.png?v=Lbyrn4xxq9",
+            "src": "/android-chrome-192x192.png?v=M4KXnnGqwq",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/android-chrome-384x384.png?v=Lbyrn4xxq9",
-            "sizes": "384x384",
+            "src": "/android-chrome-256x256.png?v=M4KXnnGqwq",
+            "sizes": "256x256",
             "type": "image/png"
         }
     ],
-    "theme_color": "#faf8f8",
-    "background_color": "#faf8f8",
+    "theme_color": "#f0eeee",
+    "background_color": "#f0eeee",
     "display": "standalone"
 }

@@ -1,0 +1,104 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "themes";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0rem 4rem;
+}
+
+%header {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    @extend %header;
+    font-size: 5rem;
+}
+
+h2 {
+    @extend %header;
+    font-size: 4rem;
+}
+
+h3 {
+    @extend %header;
+    font-size: 3rem;
+}
+
+%text {
+    margin: 2rem;
+    margin-right: 36rem;
+    padding-bottom: 0.5rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+p,
+span {
+    @extend %text;
+    font-size: 3rem;
+    a {
+        margin: 0rem;
+    }
+}
+
+a {
+    @extend %text;
+    font-size: 2.75rem;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: 400;
+}
+
+strong {
+    font-weight: 500;
+}
+
+em {
+    font-style: italic;
+}
+
+.small {
+    font-size: 2.75rem;
+}
+
+#faq :nth-child(2n + 3) {
+    margin-top: -1rem;
+}
+
+#theme-toggler {
+    position: fixed;
+    right: 2rem;
+    top: 2rem;
+    * {
+        font-size: 3.5rem;
+        margin: 2rem;
+        text-decoration: underline;
+    }
+    & :last-child {
+        margin: 0rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 1.33vw;
+    }
+    %text {
+        margin-right: 0rem;
+    }
+}

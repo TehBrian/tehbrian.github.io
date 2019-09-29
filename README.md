@@ -1,10 +1,16 @@
-## TehBrian's Website
-This is my personal website to refine my HTML, CSS, and JavaScript skills!
+# Hi there, I'm Brian!
+This is my website, it's pretty fancy! I know it's not much, but it's a starting point for what's hopefully soon to come.
 
-It's pretty empty so don't expect anything too great right now.
+## To-do:
+Rigorously go over main.scss and index.html.
+Change the color of links.
+Text could be smaller, more condensed.
+Make the website more responsive and better looking across all devices.
+Add a header/navbar, put the theme toggler there.
+Possibly change the theme switcher to an actual button.
+Possibly remove gradient on all text, only leave it for headers.
+Possibly split up about me, contact, and FAQ, into separate pages.
 
-# Colors
-White: #faf8f8;
-White-Black: #b7b5b5;
-Black-White: #757373;
-Black: #323030;
+### Thing that I might need later:
+<script src='https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js'>script>
+<script>var scroll = new SmoothScroll("a[href*='#']', {header: '#topnav', easing: 'easeOutQuad'}");</script>
