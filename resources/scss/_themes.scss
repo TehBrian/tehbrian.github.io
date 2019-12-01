@@ -22,6 +22,10 @@
         color: $darkish;
     }
 
+    .faded {
+        color: $lightish;
+    }
+
     .rainbow {
         @include css3-prefix(background-clip, text);
         color: transparent;
@@ -49,6 +53,10 @@
 
     a:hover {
         color: $lightish;
+    }
+
+    .faded {
+        color: $darkish;
     }
 
     .rainbow {
