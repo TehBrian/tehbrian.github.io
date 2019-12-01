@@ -57,3 +57,48 @@
         background-image: linear-gradient(111deg, $mc-dark-purple, $mc-dark-blue);
     }
 }
+
+[theme="hackerman"] {
+    body {
+        background-color: #000;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        color: #0f0;
+    }
+
+    p,
+    span {
+        color: #0d0;
+    }
+
+    a {
+        color: #00f;
+    }
+
+    .faded {
+        color: #0b0;
+    }
+}
+
+[theme="bleached"] {
+    body {
+        background-color: #fff;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    p,
+    span {
+        color: #000;
+    }
+
+    a {
+        color: #555;
+    }
+}
