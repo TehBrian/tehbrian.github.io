@@ -3,7 +3,6 @@ This is my website, it's pretty fancy! I know it's not much, but it's a starting
 
 ## To-do:
 - Rigorously go over main.scss and index.html.
-- Change the color of links.
 - Text could be smaller, more condensed.
 - Make the website more responsive and better looking across all devices.
 - Add a header/navbar, put the theme toggler there.
