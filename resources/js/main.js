@@ -45,7 +45,7 @@ function toggleTheme() {
     } else if (document.documentElement.getAttribute("theme") === "light") {
         activateDarkTheme();
     } else {
-        console.log("Looks like something broke. Setting the theme to your brower's color scheme preference.");
+        console.log("Looks like something broke. Setting the theme to your browser's color scheme preference.");
         activateColorScheme();
     }
 }
