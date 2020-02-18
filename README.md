@@ -7,7 +7,7 @@ This is my website, it's pretty fancy! I know it's not much, but it's a starting
 - Make the website more responsive and better looking across all devices.
 - Add a header/navbar, put the theme toggler there.
 - Possibly change the theme switcher to an actual button.
-- Possibly split up about me, contact, and FAQ, into separate pages.
+- Possibly split up about me, contact, and FAQ into separate pages.
 
 ### Thing that I might need later:
 <script src='https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js'>script>
