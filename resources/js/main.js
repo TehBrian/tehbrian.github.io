@@ -49,3 +49,5 @@ function toggleTheme() {
         activateColorScheme();
     }
 }
+
+onLoad();
