@@ -14,6 +14,7 @@ body {
 %header {
     margin-top: 4rem;
     margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
 }
@@ -30,7 +31,7 @@ h2 {
 
 h3 {
     @extend %header;
-    font-size: 3rem;
+    font-size: 3.25rem;
 }
 
 p,
@@ -40,7 +41,8 @@ span {
     margin-right: 36rem;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 3rem;
+    font-size: 2.75rem;
+    line-height: 3.25rem;
     * {
         margin: 0rem;
     }
@@ -60,13 +62,6 @@ strong {
 
 em {
     font-style: italic;
-}
-
-#contact {
-    a,
-    span {
-        font-size: 2.75rem;
-    }
 }
 
 #faq :nth-child(2n + 3) {

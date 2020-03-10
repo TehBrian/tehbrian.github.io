@@ -27,6 +27,12 @@
         color: transparent;
         background-image: linear-gradient(111deg, $mc-red, $mc-yellow);
     }
+
+    .invert-rainbow {
+        @include css3-prefix(background-clip, text);
+        color: transparent;
+        background-color: $mc-aqua;
+    }
 }
 
 [theme="light"] {
@@ -55,6 +61,12 @@
         @include css3-prefix(background-clip, text);
         color: transparent;
         background-image: linear-gradient(111deg, $mc-dark-purple, $mc-dark-blue);
+    }
+
+    .invert-rainbow {
+        @include css3-prefix(background-clip, text);
+        color: transparent;
+        background-color: $mc-dark-green;
     }
 }
 
