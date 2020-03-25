@@ -35,6 +35,7 @@ function activateColorScheme() {
     }
     if (isNotSupported) {
         console.log("Your browser doesn't support the color scheme preference media query. Please update to a more recent browser. Defaulting to dark theme.");
+        console.log("Or, hey, maybe you're using Tor or another privacy-aware browser. Keep doing that, then.");
         activateDarkTheme();
     }
 }
