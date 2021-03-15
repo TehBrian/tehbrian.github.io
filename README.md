@@ -1,14 +1,10 @@
-# Hi there, I'm Brian!
-This is my website, it's pretty fancy! I know it's not much, but it's a starting point for what's hopefully soon to come.
+# itstehbrian.github.io
+A personal website built with Jekyll, SASS, and love. Not much, but still pretty fancy!
 
-## To-do:
-- Rigorously go over main.scss and index.html.
-- Text could be smaller, more condensed.
-- Make the website more responsive and better looking across all devices.
-- Add a header/navbar, put the theme toggler there.
-- Possibly change the theme switcher to an actual button.
-- Possibly split up about me, contact, and FAQ into separate pages.
-
-### Thing that I might need later:
-<script src='https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js'>script>
-<script>var scroll = new SmoothScroll("a[href*='#']', {header: '#topnav', easing: 'easeOutQuad'}");</script>
+## to-do
+- add favicon
+- replace links with nice, round buttons
+- add navigation bar
+- put theme toggler in navigation bar
+- add blog
+- don't use deprecated addListener method in main.js
