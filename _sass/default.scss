@@ -8,7 +8,9 @@ html {
 }
 
 body {
-    padding: 0rem 4rem;
+    padding: 0rem 2rem;
+    margin: 6rem auto;
+    max-width: 800px;
 }
 
 %header {
@@ -21,28 +23,27 @@ body {
 
 h1 {
     @extend %header;
-    font-size: 5rem;
+    font-size: 4.5rem;
 }
 
 h2 {
     @extend %header;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h3 {
     @extend %header;
-    font-size: 3.25rem;
+    font-size: 2.5rem;
 }
 
 p,
 a,
 span {
     margin: 2rem;
-    margin-right: 36rem;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
-    font-size: 2.75rem;
-    line-height: 3.25rem;
+    font-size: 2.5rem;
+    line-height: 1.6;
     * {
         margin: 0rem;
     }
@@ -64,11 +65,6 @@ em {
     font-style: italic;
 }
 
-#faq :nth-child(2n + 3) {
-    margin-top: -0.75rem;
-    font-size: 2.75rem;
-}
-
 #theme-toggler {
     position: fixed;
     right: 2rem;
@@ -77,16 +73,5 @@ em {
         margin-right: 0rem;
         font-size: 3.5rem;
         text-decoration: underline;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    html {
-        font-size: 1.33vw;
-    }
-    p,
-    a,
-    span {
-        margin-right: 0rem;
     }
 }

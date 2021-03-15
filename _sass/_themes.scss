@@ -60,7 +60,11 @@
     .rainbow {
         @include css3-prefix(background-clip, text);
         color: transparent;
-        background-image: linear-gradient(111deg, $mc-dark-purple, $mc-dark-blue);
+        background-image: linear-gradient(
+            111deg,
+            $mc-dark-purple,
+            $mc-dark-blue
+        );
     }
 
     .invert-rainbow {
