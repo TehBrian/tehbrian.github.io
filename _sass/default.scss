@@ -69,9 +69,10 @@ em {
     position: fixed;
     right: 2rem;
     top: 2rem;
-    * {
-        margin-right: 0rem;
+
+    .btn {
+        padding: 1rem 1rem; // some padding for sausage fingers
         font-size: 3.5rem;
-        text-decoration: underline;
+        cursor: pointer;
     }
 }

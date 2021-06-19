@@ -36,6 +36,16 @@
         color: transparent;
         background-color: $mc-aqua;
     }
+
+    #theme-toggler {
+        .btn {
+            color: $lightish;
+        }
+
+        .btn:hover {
+            color: $lighter;
+        }
+    }
 }
 
 [theme="light"] {
@@ -77,6 +87,16 @@
         @include css3-prefix(background-clip, text);
         color: transparent;
         background-color: $mc-dark-green;
+    }
+
+    #theme-toggler {
+        .btn {
+            color: $darkish;
+        }
+
+        .btn:hover {
+            color: $darker;
+        }
     }
 }
 
