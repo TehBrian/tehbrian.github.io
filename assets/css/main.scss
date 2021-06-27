@@ -1,9 +1,11 @@
 ---
 ---
+
 @import "reset";
 @import "mixins";
 @import "colors";
 @import "themes";
+@import "theme-button";
 
 html {
     font-size: 62.5%;
@@ -65,14 +67,4 @@ strong {
 
 em {
     font-style: italic;
-}
-
-.theme-button {
-    position: fixed;
-    right: 2rem;
-    top: 2rem;
-
-    padding: 1rem 1rem; // some padding for sausage fingers
-    font-size: 3.5rem;
-    cursor: pointer;
 }
