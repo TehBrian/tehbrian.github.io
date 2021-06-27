@@ -37,14 +37,12 @@
         background-color: $mc-aqua;
     }
 
-    #theme-toggler {
-        .btn {
-            color: $lightish;
-        }
+    .theme-button {
+        color: $lightish;
+    }
 
-        .btn:hover {
-            color: $lighter;
-        }
+    .theme-button:hover {
+        color: $lighter;
     }
 }
 
@@ -89,14 +87,12 @@
         background-color: $mc-dark-green;
     }
 
-    #theme-toggler {
-        .btn {
-            color: $darkish;
-        }
+    .theme-button {
+        color: $darkish;
+    }
 
-        .btn:hover {
-            color: $darker;
-        }
+    .theme-button:hover {
+        color: $darker;
     }
 }
 

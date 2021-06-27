@@ -65,14 +65,12 @@ em {
     font-style: italic;
 }
 
-#theme-toggler {
+.theme-button {
     position: fixed;
     right: 2rem;
     top: 2rem;
 
-    .btn {
-        padding: 1rem 1rem; // some padding for sausage fingers
-        font-size: 3.5rem;
-        cursor: pointer;
-    }
+    padding: 1rem 1rem; // some padding for sausage fingers
+    font-size: 3.5rem;
+    cursor: pointer;
 }
