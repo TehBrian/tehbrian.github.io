@@ -1,12 +1,10 @@
 ---
 layout: default
 title: Server Resource Packs
-description: Some personal tips on how to make server resource packs work.
+description: Some tips on how to make Minecraft server resource packs work.
 ---
-# Making server resource packs is hard.
-Luckily, I'm here with some notes.
-
-Sounds go in the minecraft subfolder in assets, regardless of namespace.
+# Notes on Server Resource Packs
+Sounds go in assets/minecraft, regardless of namespace.
 
 Archive the folder contents, not the folder.
 
