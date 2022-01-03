@@ -1,8 +1,8 @@
 url: "https://tehbrian.xyz" # the base hostname & protocol for your site
 
 plugins:
-    - jekyll-feed
     - jekyll-sitemap
+    - jekyll-feed
     - jekyll-seo-tag
 
 collections:
