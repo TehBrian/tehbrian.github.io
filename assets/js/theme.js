@@ -13,14 +13,17 @@ function onLoad() {
     }
 }
 
+function activateTheme(theme) {
+    localStorage.setItem("theme", theme);
+    document.documentElement.setAttribute("theme", theme);
+}
+
 function activateDarkTheme() {
-    localStorage.setItem("theme", "dark");
-    document.documentElement.setAttribute("theme", "dark");
+    activateTheme("dark");
 }
 
 function activateLightTheme() {
-    localStorage.setItem("theme", "light");
-    document.documentElement.setAttribute("theme", "light");
+    activateTheme("light");
 }
 
 function activateColorScheme() {
