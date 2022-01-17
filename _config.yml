@@ -5,7 +5,7 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
 
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "CNAME"]
 
 collections:
   pages:
