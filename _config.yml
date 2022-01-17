@@ -6,9 +6,11 @@ plugins:
     - jekyll-seo-tag
 
 exclude: ["README.md"]
+
 collections:
-    authors:
-        output: true
+  pages:
+    output: true
+    permalink: /:path
 
 defaults:
     - scope:
