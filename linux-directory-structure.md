@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: minimal
 title: Linux Directory Structure
 description: Notes for me because I'm a dummy.
 ---
