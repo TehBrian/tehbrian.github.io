@@ -22,7 +22,7 @@ Who knows, maybe someone else will find it useful as well?
 | `/etc`    | system configuration files        |                              |
 | `/srv`    | **s**e**rv**er files              | (HTTP, FTP services)         |
 | `/var`    | **var**iable data                 | (log files, print queues)    |
-| `/boot`   | linux **boot** files              | (no touchy!)                 |
+| `/boot`   | linux **boot** files              | (kernal, bootloader files)   |
 | `/dev`    | connected **dev**ices             | (represented as files)       |
 | `/media`  | connected **media** devices       | (removable media, like USBs) |
 | `/proc`   | running **proc**esses             |                              |
