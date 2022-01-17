@@ -20,7 +20,8 @@ Who knows, maybe someone else will find it useful as well?
 | `/opt`    | **opt**ional third-party software |                              |
 | `/tmp`    | **t**e**mp**orary files           | (usually cleared on reboot)  |
 | `/etc`    | system configuration files        |                              |
-| `/var`    | **var**iable data                 | (log files)                  |
+| `/srv`    | **s**e**rv**er files              | (HTTP, FTP services)         |
+| `/var`    | **var**iable data                 | (log files, print queues)    |
 | `/boot`   | linux **boot** files              | (no touchy!)                 |
 | `/dev`    | connected **dev**ices             | (represented as files)       |
 | `/media`  | connected **media** devices       | (removable media, like USBs) |
