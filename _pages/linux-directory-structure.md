@@ -24,6 +24,7 @@ _(Also, you can interpret "binaries" as executables or programs.)_
 | `/lib`    | shared **lib**raries              |       (for binaries to use) |       |
 | `/opt`    | **opt**ional third-party binaries |                             |       |
 | `/home`   | users' **home** directories       | (default current directory) |       |
+| `/root`   | **root** user's home directory    |                             |       |
 | `/boot`   | linux **boot**loader files        |           (kernels, initrd) |       |
 | `/etc`    | system configuration files        |                             |       |
 | `/srv`    | **s**e**rv**er files              |        (HTTP, FTP services) |       |
@@ -36,7 +37,7 @@ _(Also, you can interpret "binaries" as executables or programs.)_
 | `/media`  | **media** devices                 |     (removable media, USBs) | (vfs) |
 
 Of course, there are more directories, but these are the basic ones you should know,
-and any more involved directories (such as `/lost+found`, `/root`, `/run`) can be googled by you.
+and any more involved directories (such as `/lost+found`, `/run`) can be googled by you.
 
 ## extra notes
 
