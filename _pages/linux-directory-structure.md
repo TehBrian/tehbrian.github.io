@@ -25,7 +25,7 @@ _(Also, you can interpret "binaries" as executables or programs.)_
 | `/opt`    | **opt**ional third-party binaries |                             |       |
 | `/home`   | users' **home** directories       | (default current directory) |       |
 | `/root`   | **root** user's home directory    |                             |       |
-| `/boot`   | linux **boot**loader files        |           (kernels, initrd) |       |
+| `/boot`   | **boot**loader files              |           (kernels, initrd) |       |
 | `/etc`    | configuration files               |      (for system, services) |       |
 | `/srv`    | **s**e**rv**er files              |        (HTTP, FTP services) |       |
 | `/var`    | **var**iable data                 |   (log files, print queues) |       |
