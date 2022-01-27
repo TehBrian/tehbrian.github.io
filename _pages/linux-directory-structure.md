@@ -26,7 +26,7 @@ _(Also, you can interpret "binaries" as executables or programs.)_
 | `/home`   | users' **home** directories       | (default current directory) |       |
 | `/root`   | **root** user's home directory    |                             |       |
 | `/boot`   | linux **boot**loader files        |           (kernels, initrd) |       |
-| `/etc`    | system configuration files        |                             |       |
+| `/etc`    | configuration files               |      (for system, services) |       |
 | `/srv`    | **s**e**rv**er files              |        (HTTP, FTP services) |       |
 | `/var`    | **var**iable data                 |   (log files, print queues) |       |
 | `/tmp`    | **t**e**mp**orary files           | (usually cleared on reboot) |       |
