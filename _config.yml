@@ -1,4 +1,4 @@
-url: "https://tehbrian.xyz" # the base hostname & protocol for your site
+url: "https://tehbrian.xyz"
 
 plugins:
     - jekyll-sitemap
@@ -6,11 +6,6 @@ plugins:
     - jekyll-seo-tag
 
 exclude: ["README.md", "LICENSE", "CNAME"]
-
-collections:
-  pages:
-    output: true
-    permalink: /:path
 
 defaults:
     - scope:
