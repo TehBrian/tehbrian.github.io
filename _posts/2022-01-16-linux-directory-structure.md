@@ -46,14 +46,17 @@ understand it. As with most decade-old+ software, a lot of the ambiguity has to 
 [Here's a good discussion](https://askubuntu.com/questions/130186/what-is-the-rationale-for-the-usr-directory)
 I found on the matter.
 
-must be on same partition:
+must be on root partition:
 
 -   `/bin`
--   `/sbin`
--   `/lib`
--   `/dev`
 -   `/etc`
 -   `/proc`
+
+must be on same partition:
+
+-   `/dev`
+-   `/lib`
+-   `/sbin`
 
 make a separate partition for:
 
@@ -62,5 +65,5 @@ make a separate partition for:
 
 also recommended to make a partition for:
 
--   `/home`
--   `/var`
+-   `/home` (so users can't fill important drives)
+-   `/var` (can fill up with lots of data)
