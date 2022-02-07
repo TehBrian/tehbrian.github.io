@@ -1,7 +1,7 @@
 ---
 layout: minimal
-title: Server Resource Packs
-description: Some tips on how to make Minecraft server resource packs work.
+title: "Server Resource Packs"
+description: "Some tips on how to make Minecraft server resource packs work."
 ---
 
 # notes on server resource packs

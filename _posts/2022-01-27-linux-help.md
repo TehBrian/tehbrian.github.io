@@ -1,7 +1,7 @@
 ---
 layout: minimal
-title: Linux Help
-description: Notes on how to get help in linux.
+title: "Linux Help"
+description: "Notes on how to get help in linux."
 ---
 
 # notes on linux help

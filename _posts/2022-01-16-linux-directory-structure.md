@@ -1,7 +1,7 @@
 ---
 layout: minimal
-title: Linux Directory Structure
-description: Notes for me because I'm a dummy.
+title: "Linux Directory Structure"
+description: "Notes for me because I'm a dummy."
 ---
 
 # notes on linux directory structure

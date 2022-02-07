@@ -1,7 +1,7 @@
 ---
 layout: minimal
-title: Naming Conventions
-description: Because there aren't enough references on the internet, right?
+title: "Naming Conventions"
+description: "Because there aren't enough references on the internet, right?"
 ---
 
 # naming conventions
