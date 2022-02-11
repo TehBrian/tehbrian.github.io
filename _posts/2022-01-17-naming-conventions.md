@@ -1,10 +1,8 @@
 ---
-layout: minimal
+layout: post
 title: "Naming Conventions"
 description: "Because there aren't enough references on the internet, right?"
 ---
-
-# naming conventions
 
 |              | commonly used in |
 | ------------ | ---------------: |

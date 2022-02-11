@@ -1,10 +1,8 @@
 ---
-layout: minimal
+layout: post
 title: "Server Resource Packs"
-description: "Some tips on how to make Minecraft server resource packs work."
+description: "Tips on how to make Minecraft server resource packs work."
 ---
-
-# notes on server resource packs
 
 Getting them to work is often difficult, so here are some
 tips to help mitigate the pain.

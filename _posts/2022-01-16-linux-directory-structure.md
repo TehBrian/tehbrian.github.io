@@ -1,10 +1,8 @@
 ---
-layout: minimal
+layout: post
 title: "Linux Directory Structure"
 description: "Notes for me because I'm a dummy."
 ---
-
-# notes on linux directory structure
 
 I often find myself forgetting Linux's directory structure and its
 cryptic names, so this document serves as a quick reference for me.

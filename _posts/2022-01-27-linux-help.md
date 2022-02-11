@@ -1,10 +1,8 @@
 ---
-layout: minimal
+layout: post
 title: "Linux Help"
-description: "Notes on how to get help in linux."
+description: "Notes on how to get help from within linux."
 ---
-
-# notes on linux help
 
 In Linux, there are various programs which provide help with Linux and Linux commands.
 With how many options there are, it can be difficult to decide which program to use.
