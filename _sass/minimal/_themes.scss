@@ -1,0 +1,29 @@
+[theme="dark"] {
+    body {
+        color: #eee;
+        background-color: #121212;
+    }
+
+    .theme-button {
+        color: #ddd;
+    }
+
+    .theme-button:hover {
+        color: #eee;
+    }
+}
+
+[theme="light"] {
+    body {
+        color: #222;
+        background-color: #fff;
+    }
+
+    .theme-button {
+        color: #222;
+    }
+
+    .theme-button:hover {
+        color: #111;
+    }
+}

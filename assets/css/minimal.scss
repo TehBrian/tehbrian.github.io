@@ -1,10 +1,17 @@
 ---
 ---
+@import "minimal/themes";
+@import "theme-button";
+
 body {
     margin: 20px auto;
     max-width: 650px;
     padding: 0 10px;
 
-    color: #222;
     line-height: 1.2;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
 }
