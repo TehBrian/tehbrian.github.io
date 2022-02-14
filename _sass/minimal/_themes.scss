@@ -1,11 +1,12 @@
 [theme="dark"] {
     body {
-        color: #eee;
+        color: #eee; // 1 away from FFFF
         background-color: #121212;
     }
 
+    // A bcd E f
     .theme-button {
-        color: #ddd;
+        color: #aaa;
     }
 
     .theme-button:hover {
@@ -28,7 +29,7 @@
 
 [theme="light"] {
     body {
-        color: #222;
+        color: #222; // 2 away from 000
         background-color: #fff;
     }
 
@@ -44,8 +45,9 @@
         color: #f25d9c;
     }
 
+    // 5 432 1 0
     .theme-button {
-        color: #222;
+        color: #555;
     }
 
     .theme-button:hover {
