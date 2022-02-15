@@ -1,56 +1,58 @@
+@import "minimal/_colors.scss";
+
 [theme="dark"] {
     body {
-        color: #eee; // 1 away from FFF
-        background-color: #121212;
+        color: $about-white;
+        background-color: $basically-black;
     }
 
     // A bcd E f
     .theme-button {
-        color: #aaa;
+        color: $light-gray;
     }
 
     .theme-button:hover {
-        color: #eee;
+        color: $about-white;
     }
 
     // https://colorhunt.co/palette/a8d8eaaa96dafcbad3ffffd2
     a:link {
-        color: #a8d8ea;
+        color: $lb;
     }
 
     a:visited {
-        color: #aa96da;
+        color: $lp;
     }
 
     a:active {
-        color: #fcbad3;
+        color: $lr;
     }
 }
 
 [theme="light"] {
     body {
-        color: #222; // 2 away from 000
-        background-color: #fff;
+        color: $almost-black; // 2 away from 000
+        background-color: $white;
     }
 
     a:link {
-        color: #0000dd;
+        color: $db;
     }
 
     a:visited {
-        color: #590d82;
+        color: $dp;
     }
 
     a:active {
-        color: #f25d9c;
+        color: $dr;
     }
 
     // 5 432 1 0
     .theme-button {
-        color: #555;
+        color: $gray;
     }
 
     .theme-button:hover {
-        color: #111;
+        color: $black;
     }
 }
