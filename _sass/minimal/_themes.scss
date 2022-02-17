@@ -6,7 +6,6 @@
         background-color: $basically-black;
     }
 
-    // A bcd E f
     .theme-button {
         color: $light-gray;
     }
@@ -15,7 +14,6 @@
         color: $about-white;
     }
 
-    // https://colorhunt.co/palette/a8d8eaaa96dafcbad3ffffd2
     a:link {
         color: $lb;
     }
@@ -31,8 +29,16 @@
 
 [theme="light"] {
     body {
-        color: $almost-black; // 2 away from 000
+        color: $almost-black;
         background-color: $white;
+    }
+
+    .theme-button {
+        color: $gray;
+    }
+
+    .theme-button:hover {
+        color: $black;
     }
 
     a:link {
@@ -45,14 +51,5 @@
 
     a:active {
         color: $dr;
-    }
-
-    // 5 432 1 0
-    .theme-button {
-        color: $gray;
-    }
-
-    .theme-button:hover {
-        color: $black;
     }
 }
