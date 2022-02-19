@@ -2,6 +2,7 @@
 layout: post
 title: "Linux Directory Structure"
 description: "Notes for me because I'm a dummy."
+category: Linux
 ---
 
 I often find myself forgetting Linux's directory structure and its

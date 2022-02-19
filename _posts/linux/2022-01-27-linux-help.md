@@ -2,6 +2,7 @@
 layout: post
 title: "Linux Help"
 description: "Notes on how to get help from within linux."
+category: Linux
 ---
 
 In Linux, there are various programs which provide help with Linux and Linux commands.
