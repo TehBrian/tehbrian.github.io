@@ -12,3 +12,7 @@ defaults:
           path: "**/*.html"
       values:
           author: "TehBrian"
+    - scope:
+          type: "posts"
+      values:
+          permalink: /blog/:title/
