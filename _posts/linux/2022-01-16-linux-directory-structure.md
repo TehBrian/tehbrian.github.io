@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Directory Structure"
-description: "Notes for me because I'm a dummy."
+description: "Cheatsheet for Linux's directory structure."
 category: Linux
 ---
 
