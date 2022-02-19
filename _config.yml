@@ -9,6 +9,6 @@ exclude: ["README.md", "LICENSE", "CNAME"]
 
 defaults:
     - scope:
-          path: ""
+          path: "**/*.html"
       values:
           author: "TehBrian"
