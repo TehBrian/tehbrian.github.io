@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Linux Help"
-description: "Notes on how to get help from within linux."
+description: "Cheatsheet for how to get help within linux."
 category: Linux
 ---
 
