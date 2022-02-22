@@ -2,6 +2,7 @@
 layout: post
 title: "Linux User and Group Management"
 description: "Cheatsheet for user and group management."
+category: Linux
 ---
 
 ## user types
