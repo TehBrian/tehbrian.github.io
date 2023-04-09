@@ -1,9 +1,9 @@
 function onLoad() {
-    // Add listeners for system color-change events.
-    window.matchMedia("(prefers-color-scheme: dark)").addListener(e => e.matches && activateDarkTheme());
-    window.matchMedia("(prefers-color-scheme: light)").addListener(e => e.matches && activateLightTheme());
+    // add listeners for system color-change events.
+    window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", e => e.matches && activateDarkTheme());
+    window.matchMedia("(prefers-color-scheme: light)").addEventListener("change", e => e.matches && activateLightTheme());
 
-    // Check local storage for explicit theme preference, else check system.
+    // check local storage for explicit theme preference, else check system.
     if (localStorage.getItem("theme") === "dark") {
         activateDarkTheme();
     } else if (localStorage.getItem("theme") === "light") {
